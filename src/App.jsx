@@ -141,7 +141,7 @@ export default function App() {
 
         <main className="grid grid-cols-1 gap-8 w-[70%] mx-auto">
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
-            <h2 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-white">Tell Us About Yourself</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-white">Tell Us About Your Practice Project</h2>
             <form onSubmit={handleGenerateIdea} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <FormSelect label="Experience Level" value={experience} onChange={setExperience} options={experienceLevels} />
